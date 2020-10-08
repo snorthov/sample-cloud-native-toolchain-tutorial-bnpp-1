@@ -13,6 +13,10 @@ if (process.env.NEW_RELIC_LICENSE_KEY) {
   console.log('New Relic not in use.');
 }
 
+
+console.log('Steve was here!');
+
+
 var SwaggerExpress = require('swagger-express-mw');
 var SwaggerUi = require('swagger-tools/middleware/swagger-ui');
 var express = require('express');
